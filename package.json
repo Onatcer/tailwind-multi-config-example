@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css && npx tailwindcss -i ./src/admin.css -o ./dist/admin-output.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
